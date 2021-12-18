@@ -1,0 +1,145 @@
+.header 
+{
+	background-color: #016064;
+	width: 100%;
+}
+
+
+.website_banner
+{
+	background-color:#016064;
+	width: 100%;
+	height: 300px;
+}
+
+
+.image-header
+{	
+	width: 99.75%;
+	height: 300px;
+	margin: 1px;
+}
+
+.navbar
+{
+	width: 100%;
+	height: 50px;
+	flex: 1;
+	text-align: center;
+}
+
+
+li.a
+{
+	display:inline-block;
+	margin:2px;
+	float: left;
+
+}
+
+li.a a:link, a:visited 
+{
+	color:white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+}
+
+li.a a:hover, a:active 
+{
+	color:#00ffff;
+}
+
+
+
+.example
+{
+	text-align: center;
+	font-family: Times New Roman;
+	font-size: 20px;
+	background-color: #C1E7E3;
+}
+
+.sample
+{
+	width: 20%;
+	height: 250px;
+	margin: 7.5px;
+	padding: 2px;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba (0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.photo
+{
+	text-align: center;
+	font-family: Times New Roman;
+	font-size: 20px;
+	background-color: #C1E7E3;
+}
+
+.streetpics
+{
+	width: 20%;
+	height: 250px;
+	margin: 7.5px;
+	padding: 2px;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba (0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.corporate
+{
+	width: 20%;
+	height: 250px;
+	margin: 7.5px;
+	padding: 2px;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba (0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.family
+{
+	width: 20%;
+	height: 250px;
+	margin: 7.5px;
+	padding: 2px;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba (0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.maternity
+{
+	width: 20%;
+	height: 250px;
+	margin: 7.5px;
+	padding: 2px;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba (0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.event
+{
+	width: 20%;
+	height: 250px;
+	margin: 7.5px;
+	padding: 2px;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba (0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.footer
+{
+	width: 99.25%;
+	height: 50px;
+	padding: 5px;
+	background-color: #C1E7E3;
+}
+
+.social
+{
+	width: 5%;
+	height: 50px;
+	padding: 1px;
+}

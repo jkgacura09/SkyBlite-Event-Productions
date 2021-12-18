@@ -1,0 +1,218 @@
+.header 
+{
+	background-color: #016064;
+	width: 100%;
+}
+
+
+.website_banner
+{
+	background-color:#016064;
+	width: 100%;
+	height: 300px;
+}
+
+
+.image-header
+{	
+	width: 99.75%;
+	height: 300px;
+	margin: 1px;
+}
+
+.navbar
+{
+	width: 100%;
+	height: 50px;
+	flex: 1;
+	text-align: center;
+}
+
+
+li.a
+{
+	display:inline-block;
+	margin:2px;
+	float: left;
+
+}
+
+li.a a:link, a:visited 
+{
+	color:white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+}
+
+li.a a:hover, a:active 
+{
+	color:#00ffff;
+}
+
+
+.header1
+{
+	width:99.80%;
+	background-color: #016064;
+	padding: 1px;
+}
+
+
+
+.review
+{
+	width: 40%;
+	height: 560px;
+	color: white;
+}
+
+
+.review-round
+{
+	background-image: linear-gradient(180deg, #1b9cec, #0e0ca6, #05044c);
+	width: 100%;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 2px auto;
+	font-family: Times New Roman;
+	font-size: 16px;
+	line-height: 10px;
+}
+
+
+input[type=text] 
+{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: 1px;
+	outline-style: none;
+}
+
+textarea
+{
+	width: 100%;
+	height: 150px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	resize: none;
+	outline-style: none;
+}
+
+input[type=button]
+{
+	width: 100%;
+	background-color: #ECF3EE;
+	border: none;
+	color: black;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+h2
+{
+	font-family: Times New Roman;
+	color: white;
+}
+
+p
+{
+	font-family: white;
+	color: black;
+}
+
+.customer_review
+{
+	width: 58%;
+	height: 560px;
+	background-color: #63C5DA;
+	float: right;
+}
+
+.profile
+{
+	padding-top: 10px;
+	width:30%;
+	height:200px;
+}
+
+
+
+.location
+{
+	width: 100%;
+	height: 500px;
+}
+
+.map
+{ 
+	width: 100%;
+	height: 495px;
+}
+
+.footer
+{
+	width: 99.25%;
+	height: 50px;
+	padding: 5px;
+	background-color: #C1E7E3;
+}
+
+.socmed
+{
+	width: 5%;
+	height: 50px;
+	padding: 1px;
+}
+
+h4
+{
+	font-family: Times New Roman;
+	color: black;
+}
+
+h5
+{
+	font-family: Times New Roman;
+	color: white;
+}
+
+
+.social
+{
+	width: 100%;
+	height: 60px;
+}
+
+li.b
+{
+	display:inline-block;
+	margin:2px;
+	float: left;
+	color: white;
+	float: center;
+
+}
+
+li.b a:link, a:visited 
+{
+	color:white;
+	padding: 10px 20px;
+	float: center;
+	text-decoration: none;
+}
+
+li.b a:hover, a:active 
+{
+	color:#00ffff;
+}

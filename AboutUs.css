@@ -1,0 +1,111 @@
+.header 
+{
+	background-color: #016064;
+	width: 100%;
+}
+
+
+.website_banner
+{
+	background-color:#016064;
+	width: 100%;
+	height: 300px;
+}
+
+
+.image-header
+{	
+	width: 99.75%;
+	height: 300px;
+	margin: 1px;
+}
+
+.navbar
+{
+	width: 100%;
+	height: 50px;
+	flex: 1;
+	text-align: center;
+}
+
+
+li.a
+{
+	display:inline-block;
+	margin:2px;
+	float: left;
+
+}
+
+li.a a:link, a:visited 
+{
+	color:white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+}
+
+li.a a:hover, a:active 
+{
+	color:#00ffff;
+}
+
+
+
+.header1
+{
+	width:99.6%;
+	background-color: #016064;
+	padding: 1px;
+}
+
+.manager-pic
+{
+	width:25%;
+	height:300px;
+	margin-top: 1px;
+	margin-right: 4px;
+	margin-left: 3px;
+	margin-bottom: 3px;
+	background-color: #63C5DA;
+	
+	
+}
+
+.owner
+{
+	width:100%;
+	height:300px;
+}
+
+.description
+{
+	width: 	74%;
+	height: 295px;
+	float: right;
+	padding-top: 5px;
+	background-color: #C1E7E3;
+}
+
+
+
+.footer
+{
+	width: 99.5%;
+	height: 50px;
+	padding: 5px;
+	background-color: #C1E7E3;
+}
+
+.social
+{
+	width: 5%;
+	height: 50px;
+	padding: 1px;
+}
+
+button
+{
+	width:10%;
+	height:30px;
+}
