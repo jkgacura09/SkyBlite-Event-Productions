@@ -1,22 +1,21 @@
-.header 
-{
-	background-color: #016064;
-	width: 100%;
-}
 
+.main
+{
+	margin: 0px;
+}
 
 .website_banner
 {
-	background-color:#016064;
+	background-color:brown;
 	width: 100%;
-	height: 300px;
+	height: 400px;
 }
 
 
 .image-header
 {	
 	width: 99.75%;
-	height: 300px;
+	height: 400px;
 	margin: 1px;
 }
 
@@ -26,8 +25,10 @@
 	height: 50px;
 	flex: 1;
 	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	color: black;
+	border-bottom: 2px solid #EAEAEB;
 }
-
 
 li.a
 {
@@ -39,7 +40,7 @@ li.a
 
 li.a a:link, a:visited 
 {
-	color:white;
+	color:black;
 	padding: 10px 20px;
 	text-align: center;
 	text-decoration: none;
@@ -47,7 +48,7 @@ li.a a:link, a:visited
 
 li.a a:hover, a:active 
 {
-	color:#00ffff;
+	color:brown;
 }
 
 
@@ -55,57 +56,105 @@ li.a a:hover, a:active
 .header1
 {
 	width:99.6%;
-	background-color: #016064;
 	padding: 1px;
 }
 
 .manager-pic
 {
+	display: block;
 	width:25%;
 	height:300px;
 	margin-top: 1px;
-	margin-right: 4px;
-	margin-left: 3px;
+	margin-right: auto;
+	margin-left: auto;
 	margin-bottom: 3px;
-	background-color: #63C5DA;
-	
-	
+	border-radius: 10px;
 }
+
+
+
 
 .owner
 {
+	margin: 40px auto 20px;
 	width:100%;
 	height:300px;
+	border-radius: 10px;
 }
 
 .description
 {
-	width: 	74%;
+	width: 	100%;
 	height: 295px;
-	float: right;
 	padding-top: 5px;
-	background-color: #C1E7E3;
+	text-align: center;
+	margin: 40px auto 20px;
+	
+}
+
+#desc
+{
+	width: 80%;
+	color: black;
+	font-family: 'Barlow', sans-serif;
+	text-align: center;
 }
 
 
+.background
+{
+	width: 	100%;
+	height: 295px;
+	padding-top: 5px;
+	text-align: center;
+    margin: 40px auto 20px;
+}
+
+#bg
+{
+	width: 80%;
+	color: black;
+	font-family: 'Barlow', sans-serif;
+	text-align: center;
+}
 
 .footer
 {
-	width: 99.5%;
+	width: 99.25%;
 	height: 50px;
+	background-color:#C1E7E3;
 	padding: 5px;
-	background-color: #C1E7E3;
 }
 
 .social
 {
-	width: 5%;
 	height: 50px;
 	padding: 1px;
+	background-color:#C1E7E3;
 }
 
-button
+.media
 {
-	width:10%;
-	height:30px;
+	margin-top: 40px;
+	margin-top: 40px;
+	padding-top: 20px;
+	background-color:#C1E7E3;
+}
+
+p
+{
+	color: black;
+	font-family: 'Oswald', sans-serif;
+}
+
+h3
+{
+	color: brown;
+	font-family: 'Oswald', sans-serif;
+}
+
+h1
+{
+	color: brown;
+		font-family: 'Barlow', sans-serif;
 }
