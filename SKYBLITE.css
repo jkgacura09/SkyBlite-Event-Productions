@@ -1,22 +1,30 @@
 .homepage 
 {
-	background-color: #016064;
+	background-color: #fffffe;
 	width: 100%;
 }
 
-
-.website_banner
+.main
 {
-	background-color:#016064;
-	width: 100%;
-	height: 300px;
+	margin: 0px;
+	padding: 0;
+	overflow-x: hidden;
 }
 
 
-.image-header
+
+.website-banner
+{
+	background-color:brown;
+	width: 100%;
+	height: 450px;
+}
+
+
+.banner
 {	
-	width: 99.75%;
-	height: 300px;
+	width: 99.9%;
+	height: 450px;
 	margin: 1px;
 }
 
@@ -26,6 +34,9 @@
 	height: 50px;
 	flex: 1;
 	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	color: black;
+	border-bottom: 2px solid #EAEAEB;
 }
 
 
@@ -39,7 +50,7 @@ li.a
 
 li.a a:link, a:visited 
 {
-	color:white;
+	color:black;
 	padding: 10px 20px;
 	text-align: center;
 	text-decoration: none;
@@ -47,26 +58,52 @@ li.a a:link, a:visited
 
 li.a a:hover, a:active 
 {
-	color:#00ffff;
+	color:brown;
 }
 
 #promos
 {
 	text-align: center;
-	font-family: Times New Roman;
-	font-size: 20px;
-	background-color: #C1E7E3;
+	font-family: Arial;
+	font-size: 32px;
+	font-family: 'Oswald', sans-serif;
+	margin: 40px auto 20px;
 }
 
 .sample
 {
+	
 	width: 20%;
 	height: 250px;
-	margin: 7.5px;
-	padding: 2px;
-	border-radius: 20px;
+	margin-top:7.5px;
+	margin-bottom: 3px;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-radius: 10px;
 	box-shadow: 0 4px 8px 0 rgba (0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+
+.sample1
+{
+	width: 20%;
+	height: 250px;
+	margin-top:3px;
+	margin-bottom:7.5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba (0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 
 
 .footer
@@ -75,12 +112,55 @@ li.a a:hover, a:active
 	height: 50px;
 	background-color:#C1E7E3;
 	padding: 5px;
-	
 }
 
 .social
 {
-	width: 5%;
 	height: 50px;
 	padding: 1px;
+	background-color:#C1E7E3;
+}
+
+.media
+{
+	padding-top: 20px;
+	background-color:#C1E7E3;
+}
+
+p
+{
+	color: black;
+	font-family: 'Oswald', sans-serif;
+}
+
+
+.b
+{
+	display: flex;
+	justify-content: center;
+	margin: 0 auto 40px;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+.b p
+{
+	padding: 10px 20px;
+	background-color: #FFD803;
+	border-radius: 10px;
+}
+
+.b a:link, a:visited 
+{
+	color:black;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.b a:hover, a:active 
+{
+	color:brown;
 }
