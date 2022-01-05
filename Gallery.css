@@ -1,22 +1,23 @@
-.header 
+
+
+.main
 {
-	background-color: #016064;
-	width: 100%;
+	margin: 0px;
 }
 
 
-.website_banner
+.website-banner
 {
-	background-color:#016064;
+	background-color:brown;
 	width: 100%;
-	height: 300px;
+	height: 400px;
 }
 
 
 .image-header
 {	
 	width: 99.75%;
-	height: 300px;
+	height: 400px;
 	margin: 1px;
 }
 
@@ -26,8 +27,10 @@
 	height: 50px;
 	flex: 1;
 	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	color: black;
+	border-bottom: 2px solid #EAEAEB;
 }
-
 
 li.a
 {
@@ -39,7 +42,7 @@ li.a
 
 li.a a:link, a:visited 
 {
-	color:white;
+	color:black;
 	padding: 10px 20px;
 	text-align: center;
 	text-decoration: none;
@@ -47,7 +50,7 @@ li.a a:link, a:visited
 
 li.a a:hover, a:active 
 {
-	color:#00ffff;
+	color:brown;
 }
 
 
@@ -55,9 +58,9 @@ li.a a:hover, a:active
 .example
 {
 	text-align: center;
-	font-family: Times New Roman;
+	font-family: 'Oswald', sans-serif;
 	font-size: 20px;
-	background-color: #C1E7E3;
+	margin: 40px auto 20px;
 }
 
 .sample
@@ -73,9 +76,9 @@ li.a a:hover, a:active
 .photo
 {
 	text-align: center;
-	font-family: Times New Roman;
+	font-family: 'Oswald', sans-serif;
 	font-size: 20px;
-	background-color: #C1E7E3;
+	margin: 40px auto 20px;
 }
 
 .streetpics
@@ -128,18 +131,30 @@ li.a a:hover, a:active
 	box-shadow: 0 4px 8px 0 rgba (0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
 .footer
 {
 	width: 99.25%;
 	height: 50px;
+	background-color:#C1E7E3;
 	padding: 5px;
-	background-color: #C1E7E3;
 }
 
 .social
 {
-	width: 5%;
 	height: 50px;
 	padding: 1px;
+	background-color:#C1E7E3;
+}
+
+.socmed
+{
+	margin-top: 40px;
+	padding-top: 20px;
+	background-color:#C1E7E3;
+}
+
+p
+{
+	color: black;
+	font-family: 'Oswald', sans-serif;
 }
